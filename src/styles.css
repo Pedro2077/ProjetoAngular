@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+.minecraft-presentation-container {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+  }
+  
+  .minecraft-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .minecraft-header .logo {
+    width: 200px;
+  }
+  
+  .minecraft-features-section {
+    margin-bottom: 50px;
+  }
+  
+  .minecraft-feature {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .minecraft-feature img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .minecraft-community-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .minecraft-community-images img {
+    width: 30%;
+    margin: 0 10px;
+  }
+  
+  .minecraft-footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .minecraft-footer .btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #47b117;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
