@@ -3,16 +3,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component.html';
-import { CustomersComponent } from './customers/customers.component.html';
-
+import { ContactComponent } from './contact/contact.component';
+import { CustomersComponent } from './customers/customers.component';
+import { ProductsComponent } from './products/products.component'; 
 
 const routes: Routes = [
   { path: '', component: AppComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'customers', component: CustomersComponent },
-  // Adicione outras rotas aqui conforme necessário
-];
+  { path: 'products', component: ProductsComponent }, 
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

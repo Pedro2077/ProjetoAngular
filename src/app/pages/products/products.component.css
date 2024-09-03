@@ -1,0 +1,74 @@
+/* Estilo para o contêiner da página de produtos */
+.products-container {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    color: #333;
+  }
+  
+  /* Estilo para o cabeçalho da página de produtos */
+  .products-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .products-header h1 {
+    font-size: 36px;
+    color: #47b117;
+    margin-bottom: 10px;
+  }
+  
+  .products-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Estilo para a seção de produtos */
+  .products-list-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .product-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .product-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #47b117;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3d9710;
+  }
+  

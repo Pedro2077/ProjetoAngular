@@ -1,7 +1,17 @@
 <header class="minecraft-header">
-    <img src="assets/images/minecraft-logo.png" alt="Minecraft Logo" class="logo">
-    <h1>Bem-vindo ao Mundo de Minecraft</h1>
-    <p>Explore, crie e sobreviva em um mundo de blocos infinitos.</p>
+  <div class="main-container">
+    <header class="main-header">
+      <img src="assets/images/minecraft-logo.png" alt="Minecraft Logo" class="logo">
+      <nav class="navbar">
+        <a routerLink="/">Início</a>
+  <a routerLink="/contact">Contato</a>
+  <a routerLink="/customers">Clientes</a>
+  <a routerLink="/products">Produtos</a> 
+      </nav>
+    </header>
+  
+    <router-outlet></router-outlet>
+  </div>
   </header>
   
   <section class="minecraft-features-section">
