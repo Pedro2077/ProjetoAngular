@@ -8,10 +8,11 @@ import { CustomersComponent } from './customers/customers.component';
 import { ProductsComponent } from './products/products.component'; 
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'customers', component: CustomersComponent },
-  { path: 'products', component: ProductsComponent }, 
+  { path: "", component: AppComponent },
+  { path: "contact", component: ContactComponent},
+  { path: 'customers', component: CustomersComponent},
+  { path: 'products', component: ProductsComponent}, 
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
